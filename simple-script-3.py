@@ -9,7 +9,8 @@ args = parser.parse_args()
 def greeting(name = "world"):
     print(f"Hello {name}")
 
-if args.name is None:
-    greeting()
-else:
-    greeting(args.name)
+if __name__ == "__main__":
+    if args.name is None:
+        greeting()
+    else:
+        greeting(args.name)

@@ -7,8 +7,9 @@
 # %%
 def greeting(name = "world"):
     print(f"Hello {name}")
-    
-greeting()
+
+if __name__ == "__main__":
+    greeting()
 
 # %% [markdown]
 # You save it to a script in VSCode with `<cmd><shift><p>` then find the export to script option.
